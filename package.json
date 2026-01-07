@@ -1,6 +1,16 @@
 {
+  "version": "1.0.0",
   "dependencies": {
-    "jspdf": "^4.0.0",
-    "lucide-react": "^0.562.0"
-  }
+    "react-dom": "latest",
+    "react": "latest",
+    "next": "latest",
+    "jspdf": "latest",
+    "lucide-react": "latest"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "name": "invoice-app"
 }
