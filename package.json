@@ -1,16 +1,18 @@
 {
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.1.0",
   "dependencies": {
-    "react-dom": "latest",
-    "react": "latest",
-    "next": "latest",
-    "jspdf": "latest",
-    "lucide-react": "latest"
+    "react-dom": "18.2.0",
+    "react": "18.2.0",
+    "lucide-react": "^0.263.1",
+    "next": "13.4.19",
+    "jspdf": "^2.5.1"
   },
   "scripts": {
+    "lint": "next lint",
     "start": "next start",
     "build": "next build",
     "dev": "next dev"
   },
-  "name": "invoice-app"
+  "name": "invoice-saas"
 }
